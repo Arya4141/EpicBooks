@@ -1,0 +1,106 @@
+.purchase-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+.upper_purchase_container{
+  margin-left: 220px;
+}
+
+.purchase-heading {
+  font-size: 34px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.purchase-options {
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+
+.purchase-options h2 {
+  margin-left: 125px;
+  
+}
+
+.purchase-buttons-container {
+  display: flex;
+  gap: 30px;
+}
+
+.purchase-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.purchase-button:hover {
+  transform: scale(1.1); /* Scale the button to 1.1 times its size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add background shadow */
+}
+
+
+.purchased-books-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.purchased-books-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.purchased-book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.book-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.book-details {
+  padding: 15px;
+  color: #666
+}
+
+.book-details h2 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.book-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.book-price {
+  font-weight: bold;
+  color: #007bff;
+}
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
